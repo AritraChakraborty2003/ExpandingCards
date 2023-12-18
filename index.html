@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="style.css" class="rel">
+</head>
+<body>
+    <div class="container">
+        <div class="panel active"
+         style="background-image: url('img5.jpg');">
+            <h3 style="color:white">Hackathon 1</h3>
+        </div>
+        <div class="panel"  style="background-image: url('img3.jpg');">
+            <h3 style="color:white">Hackathon 2</h3>
+        </div>
+        <div class="panel"  style="background-image: url('img1.jpg');"><h3 style="color:white">Hackathon 3</h3></div>
+        <div class="panel"  style="background-image: url('img2.jpg');"><h3 style="color:white">Hackathon 4</h3></div>
+        <div class="panel"  style="background-image: url('img4.jpg');"><h3 style="color:white">Hackathon 5</h3></div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
+
+<style>
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        flex-direction: column;
+
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height:100vh;
+        width:70vw;
+    }
+    .panel{
+        background-size:auto 100%;
+        height:95vh;
+        background-repeat: no-repeat;
+        margin-left:10px;
+        position:relative;
+        cursor: pointer;
+        flex:0.5;
+        transition: flex 0.7s ease-in;
+    }
+    .panel h3{
+        font-size: 24px;
+        position: absolute;
+        bottom:20px;
+        left:20px;
+        opacity: 0;
+        margin: 0;
+    }
+    .panel.active{
+        flex:1.35;
+    }
+    .panel.active h3{
+        opacity:1;
+    }
+    @media(max-width:900px){
+        .container{
+            width:100vw;
+        }
+        .panel:nth-of-type(4),
+        .panel:nth-of-type(3),
+        .panel:nth-of-type(5){
+            display: none;
+        }
+    }
+</style>
