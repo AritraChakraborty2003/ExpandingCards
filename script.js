@@ -391,3 +391,16 @@ nextBtn.addEventListener("click",()=>{
 prevBtn.addEventListener("click",()=>{
     document.getElementById("AboutBox").innerHTML=html[ind];
 })
+
+
+/* Hamburger Logic */
+const ham=document.getElementById("ham");
+const navHam=document.getElementById("navHam");
+ham.addEventListener("click",()=>{
+   if(window.getComputedStyle(navHam).display === "none"){
+        navHam.style.display="block";
+   }
+   else{
+         navHam.style.display="none";
+   }
+})

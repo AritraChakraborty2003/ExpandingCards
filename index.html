@@ -11,6 +11,47 @@
 </head>
 <body>
 
+    <!---Code For navbar and banner part-->
+    <div class="banner">
+    <div class="navBar" style="display: flex;width:100vw;height:50px">
+          <div class="partLogo" style="display: flex;width:45%;height:50px;">
+           
+            <div class="nameText" style="width:100%;">
+                <p style="padding-left: 3vmin;font-weight: bold;">Aritra's Portfolio</p>
+            </div>
+          </div>
+          <div class="partNav" style="display: flex; justify-content: space-evenly; align-items: center;width:55%;height:50px;">
+            <div class="partNavLaptop"> 
+              <p>About Me</p>
+              <p>Projects</p>
+              <p>Gallery</p>
+              <p>Testinomials</p>
+              <p>FAQs</p>
+              <p>TechHubIndia</p>
+            </div>
+            <div class="partNavMobile">
+                <div class="imageHolder" style="padding-right: 2vmin;" id="ham">
+                    <img src="ham.png">
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="navLinksMobile"id="navHam">
+        <div class="navClass">
+            <div class="nav1">About Me</div>
+            <div class="nav1 sec">Projects</div>
+            <div class="nav1 sec">Gallery</div>
+            <div class="nav1 sec">Testinomials</div>
+            <div class="nav1 sec">FAQs</div>
+            <div class="nav1 sec">TechHubIndia</div>
+        </div>
+    </div>
+    <div class="bannerPart" style="height:80vh">
+
+    </div>
+    </div>
+
     <!--- The About Div Box only for Large Screen not mobile or laptop-->
     <!---For About Pogress Bar and Carusol Logic-->
     <div class="aboutBox" style="width: 100vw;">
@@ -103,3 +144,50 @@
 <script src="script.js"></script>
 </html>
 
+<style>
+    .partLogo{
+        background-color: rgb(19, 123, 192);
+        color:white; 
+    }
+    .partNav{
+        background-color: rgb(19, 123, 192);
+        color:white;
+    }
+    .partNavLaptop{
+        
+        width:100%;display: flex; justify-content: space-evenly; align-items: center;
+    }
+    @media(max-width:900px){
+    .partNavLaptop{
+        display: none;
+    }
+}
+.partNavMobile{
+    width: 100%;display: flex;justify-content: flex-end;}
+@media(min-width:900px){
+    .partNavMobile{
+        display: none;
+    }
+    .navLinksMobile{
+        display: none;
+    }
+}
+
+.navLinksMobile{
+    width:100vw;
+    background-color: rgb(19, 123, 192);
+    color:white;
+    padding-bottom: 10px;
+    display: none;
+    
+}
+.nav1{
+    border: 1px solid white;
+    padding:10px;
+  
+} 
+.sec{
+    margin-top: 10px;
+}   
+
+</style>
