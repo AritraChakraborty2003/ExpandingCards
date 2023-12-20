@@ -65,38 +65,20 @@ p{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    row-gap: 3vmin;
+    row-gap: 7vmin;
     
   
 }
 @media(max-width:900px){
 
-.aboutBox{
-    display: none;
-}
-.abtImage{
-   display: none;
 
-}
-.imgHolderabt{
-    display: none;
-}
 .abtCaption{
     width: 90vw;
     box-shadow: 7px 10px 5px 3px;
 }
 
 }
-.abtImage{
-   width:25vw;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-}
-.abtCaption{
-    width: 55vw;
-    box-shadow: 7px 10px 5px 3px;
-}
+
 .border1{
     border:1px solid black;
     box-shadow: 7px 10px 5px 3px;
@@ -133,6 +115,8 @@ p{
 }
 .containerProgress{
     display: flex;
+    flex-wrap: wrap;
+    row-gap: 25px;
     justify-content: center;
 }
 .progress{
@@ -160,7 +144,7 @@ p{
 }
 .btn{
     padding: 2.5vmin;
-    background-color: rgb(44, 106, 186);
+    background-color: rgb(59, 159, 222);
     color: white;
     border:  rgb(44, 106, 186);
     border-radius: 1vmin;
@@ -169,6 +153,32 @@ p{
 /*--- progress container css end here */
 
 /*--  For Carousel Design for About */
+@media(max-width:900px){
+    .abtImage{
+        width:100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+     .abtCaption{
+         width: 95vw;
+         box-shadow: 7px 10px 5px 3px;
+     }
+    
+}
+@media(min-width:901px){
+    .abtImage{
+        width:25vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+     .abtCaption{
+         width: 55vw;
+         margin-left: 17px;
+         box-shadow: 7px 10px 5px 3px;
+     }
+}
 .abtCaption{
     display: none;
 }
@@ -219,3 +229,91 @@ ol li{
     
     font-size: 3.15vmin;
 }
+/* Nav Bar Design*/
+.partLogo{
+    background-color: rgb(19, 123, 192);
+    color:white; 
+}
+.partNav{
+    background-color: rgb(19, 123, 192);
+    color:white;
+}
+.partNavLaptop{
+    
+    width:100%;display: flex; justify-content: space-evenly; align-items: center;
+}
+@media(max-width:900px){
+.partNavLaptop{
+    display: none;
+}
+
+}
+.partNavMobile{
+width: 100%;display: flex;justify-content: flex-end;}
+@media(min-width:901px){
+.partNavMobile{
+    display: none;
+}
+.navLinksMobile{
+    display: none;
+}
+
+
+}
+
+.navLinksMobile{
+width:100vw;
+background-color: rgb(19, 123, 192);
+color:white;
+padding-bottom: 10px;
+display: none;
+
+}
+.nav1{
+border: 1px solid white;
+padding:10px;
+
+} 
+.sec{
+margin-top: 10px;
+}   
+@media(max-width:900px){
+    .bannerImage{
+        margin-top: 10vmin;height:40vh; width:70vmin;border: 10px solid rgb(59, 159, 222);border-radius: 35vmin;
+    }
+    .bannerText{
+        font-weight: bolder;  font-size: 8vmin;
+    }
+    .box2{
+        width:100vmin;
+    }
+    .box1{
+        height:45vh;
+    }
+    .btn1{
+        margin-left: 13vmin;
+    }
+    .btn2{
+        margin-left: 5vmin;
+    }
+    }
+    @media(min-width:900px){
+    .bannerImage{
+        margin-top: 10vmin;height:47vh; width:47vmin;border: 7px solid rgb(59, 159, 222);border-radius: 35vmin;
+    }
+    .bannerText{
+        font-weight: bolder;  font-size: 7.75vmin;
+    }
+    .box1{
+        width: 60vmin; height: 50vh;
+    }
+    .box2{
+        width:90vmin;height: 80vh;
+    }
+    .btn1{
+        margin-left: 8vmin;
+    }
+    .btn2{
+        margin-left: 5vmin;
+    }
+    }

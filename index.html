@@ -7,6 +7,7 @@
      <link rel="stylesheet" href="style.css" class="rel">
      <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -47,14 +48,84 @@
             <div class="nav1 sec">TechHubIndia</div>
         </div>
     </div>
-    <div class="bannerPart" style="height:80vh">
+    <div class="bannerPart" style="display:flex;flex-wrap: wrap;justify-content: center;">
+          <div class="box1" style="width:70vmin;display:flex;justify-content: center;">
+            <div class="bannerImage"style="background-image:url('banner.jpeg'); background-size:cover;">
+               
+            </div>
+          </div>
+          <div class="box2">
+                <div class="bannerText" style="margin-top: 10vmin; display: flex; justify-content: center;">
+                    <div class="holderBannerText">
+                    <p class="BannerText">Hi,<br>Aritra Here<br>
+                        I'm a <span class="float" style="color:rgb(59, 159, 222);border-radius: 3vmin;"></span></p>
+                     
+                  
+                    </div>
+                </div>
 
+                <div class="btnHolder" style="display: flex;">
+                  <button class="btn1 btn" style="border: 1px solid lightblue; padding: 2vmin;border-radius: 3vmin;">Resume</button>
+                  <button class="btn2 btn" style="padding: 2vmin;border-radius: 3vmin;">TechHubIndia</button>
+                </div>
+          </div>
     </div>
-    </div>
+</div>
+<!---Closing of main Banner with Hamburger-->
 
+<!--Starting of Projects sections-->
+<div class="projectSection" style="margin-top:15vmin">
+    <div class="projectHeader">
+        <p class="projectTitle" style="text-align: center;">My Projects<br>
+        <span class="projectPunchLine" style="font-size: 2.75vmin; letter-spacing: 0.5vmin;color: rgb(43, 120, 220); text-align: center;">(For more of my projects please visit this <a href="https://github.com/AritraChakraborty2003" style="color:blue" target="_blank">Link</a>)</span>
+            </p>
+    </div>
+    <div class="projectBody">
+        <div class="projectHolder" style="display: flex;flex-wrap: wrap;justify-content: center;">
+            <div class="projectIcon">
+                <div class="imgHolder">
+                    <img src="HealthX.jpeg" alt="HealthX" style="border:1px solid black; box-shadow: 3px 2px 5px 3px;max-width: 100%; max-height: 100%; object-fit: contain;">
+                </div>
+            </div>
+            <div class="projectDescr">
+                <p class="ProjectTitle captProj"><b>Title:</b> Health-X</p>
+                <p class="projDescr captProj">This is a website for IOT based healthcare Monitoring system for coma and paralysis  patients developed by using django and sqlite as backend with a complete responsive frontend design.It involves features like ambulance tracking,e-prescription,realtime heath monitoring,medical history and many more...</p>
+                <div class="projectLink captProj"><b>Github Link:</b><a href="https://github.com/AritraChakraborty2003/HealthTechCoders" style="color:blue;" target="_blank"> Link</a></div>
+            </div>
+        </div>
+
+        <div class="projectHolderRev" style="display: flex;flex-wrap: wrap-reverse;justify-content: center;margin-top: 10vmin;">
+            <div class="projectDescr">
+                <p class="ProjectTitle captProj"><b>Title:</b> Modern Weather App</p>
+                <p class="projDescr captProj">This is a website for fetching realtime weather data from api that is openWeathermap API by using the concept of fetchAPI and displaying the values in a responive frontend design.The key concepts involved in project are HTML,CSS,JS and fetchAPI concept.</p>
+                <div class="projectLink captProj"><b>Github Link:</b><a href="https://github.com/AritraChakraborty2003/WeatherApp" style="color:blue;" target="_blank"> Link</a></div>
+            </div>
+            <div class="projectIcon">
+                <div class="imgHolder">
+                    <img src="weather.jpeg" alt="Weather" style="max-width: 100%; max-height: 100%; object-fit: contain;border: 3px solid black; box-shadow: 3px 2px 5px 3px;">
+                </div>
+            </div>
+       
+        </div>
+
+        <div class="projectHolder" style="display: flex;flex-wrap: wrap;justify-content: center; margin-top:10vmin;">
+            <div class="projectIcon">
+                <div class="imgHolder">
+                    <img src="resume.jpeg" alt="HealthX" style="border:1px solid black; box-shadow: 3px 2px 5px 3px;max-width: 100%; max-height: 100%; object-fit: contain;">
+                </div>
+            </div>
+            <div class="projectDescr">
+                <p class="ProjectTitle captProj"><b>Title:</b> HaatKe-Resume</p>
+                <p class="projDescr captProj">This is a website for making and generating resume as pdf after filling all the necessary data.This is a resume maker project which involve concept like Advance DOM Manipulation and pdf from html.</p>
+                <div class="projectLink captProj"><b>Github Link:</b><a href="https://github.com/AritraChakraborty2003/ResumeMaker" style="color:blue;" target="_blank"> Link</a></div>
+            </div>
+        </div>
+        
+    </div>
+</div>
     <!--- The About Div Box only for Large Screen not mobile or laptop-->
     <!---For About Pogress Bar and Carusol Logic-->
-    <div class="aboutBox" style="width: 100vw;">
+    <div class="aboutBox" style="width:100vw; margin-top:15vmin;">
     <p style="text-align: center; font-size: 7vmin; color: rgb(59, 159, 222); font-weight:bold;">About Me</p>
     <div class="containerProgress" style="width:100vw">
     <div class="progress-container">
@@ -78,8 +149,8 @@
                 <div class="imgHolderabt border1" id="imgHolderAbt" style="background-image: url('abt4.jpeg');">
 
                 </div>
-            </div>
-        <div class="abtCaption border activeAbout" id="AboutBox" style="margin-left: 7vmin;" >
+        </div>
+        <div class="abtCaption border activeAbout" id="AboutBox"  >
              
                <p style="text-align: center;color: rgb(59, 159, 222);font-weight: bold; margin-top: -0.15vmin;font-size: 5vmin;">Educational Details<br>
                 <span style="font-size: 2.75vmin;">( Please Checkout my academics )</span></p>
@@ -123,7 +194,7 @@
 
 </div>
 <!-- For Expanding Cards Logic-->
-    <div class="holderGallery" style="margin-top: 10vmin;">
+    <div class="holderGallery" style="margin-top: 15vmin;">
     <h1 style="text-align: center;color: rgb(59, 159, 222);font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-weight: bold;">Achievements Gallery</h1>
     <div class="container">
         
@@ -140,54 +211,62 @@
     </div>
     </div>
 <!--End of Expanding Card Logic for Gallery-->
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+var typed=new Typed(".float",{
+    strings:["Fullstack Dev","react.js Expert","Django Expert","IOT Explorer","Software Dev"],
+    typespeed:500,
+    backspeed:5000,
+    loop:true
+})
+</script>
 </body>
 <script src="script.js"></script>
 </html>
-
 <style>
-    .partLogo{
-        background-color: rgb(19, 123, 192);
-        color:white; 
+ .projectTitle{
+    font-size: 7vmin;
+    font-weight: bold;
+    color:rgb(59, 159, 222);
+ }
+ @media(max-width:900px){
+    .projectIcon{
+        width:60vmin;
+        height:35vmin;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-    .partNav{
-        background-color: rgb(19, 123, 192);
-        color:white;
+    .imgHolder{
+        width:55vmin;
+        height:30vmin;
+     
     }
-    .partNavLaptop{
-        
-        width:100%;display: flex; justify-content: space-evenly; align-items: center;
+    .projectDescr{
+        width:90vmin;
+       
     }
-    @media(max-width:900px){
-    .partNavLaptop{
-        display: none;
+ }
+ @media(min-width:901px){
+    .projectIcon{
+        width:450px;
+        height: 50vmin;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-}
-.partNavMobile{
-    width: 100%;display: flex;justify-content: flex-end;}
-@media(min-width:900px){
-    .partNavMobile{
-        display: none;
+    .captProj{
+        font-size: 3.5vmin;
     }
-    .navLinksMobile{
-        display: none;
+    .imgHolder{
+        width:430px;
+        height:45vmin;
+       
     }
-}
-
-.navLinksMobile{
-    width:100vw;
-    background-color: rgb(19, 123, 192);
-    color:white;
-    padding-bottom: 10px;
-    display: none;
-    
-}
-.nav1{
-    border: 1px solid white;
-    padding:10px;
-  
-} 
-.sec{
-    margin-top: 10px;
-}   
-
+    .projectDescr{
+        width:650px;
+        height: 50vmin;
+        margin-left: 3vmin;
+    }
+ }
 </style>
