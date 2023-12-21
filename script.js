@@ -446,4 +446,59 @@ function updateTestinomials(){
         index=0
     }
 }
-setInterval(updateTestinomials,5000)
+setInterval(updateTestinomials,10000)
+
+/*End of Testinomials Logic*/
+
+
+
+/*FAQ Logic*/
+const dn1=document.getElementById("downarrow0")
+const ans1=document.getElementById("ans1")
+const up1=document.getElementById("upward")
+
+const dn2=document.getElementById("downarrow1")
+const ans2=document.getElementById("ans2")
+const up2=document.getElementById("upward1")
+
+const dn3=document.getElementById("downarrow2")
+const ans3=document.getElementById("ans3")
+const up3=document.getElementById("upward2")
+dn1.addEventListener("click",() =>{
+    dn1.style.display="none"
+    ans1.style.display="block"
+    up1.style.display="block"
+})
+
+up1.addEventListener("click",()=>{
+    ans1.style.display="none"
+    dn1.style.display="block"
+    up1.style.display="none"
+})
+dn2.addEventListener("click",() =>{
+    dn2.style.display="none"
+    ans2.style.display="block"
+    up2.style.display="block"
+})
+
+up2.addEventListener("click",()=>{
+    ans2.style.display="none"
+    dn2.style.display="block"
+    up2.style.display="none"
+})
+dn3.addEventListener("click",() =>{
+    dn3.style.display="none"
+    ans3.style.display="block"
+    up3.style.display="block"
+})
+
+up3.addEventListener("click",()=>{
+    ans3.style.display="none"
+    dn3.style.display="block"
+    up3.style.display="none"
+})
+/* End of FAQ Logic */
+
+
+
+
