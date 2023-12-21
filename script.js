@@ -17,7 +17,7 @@ panels.forEach(panel =>{
 
 /* Code Logic for Progress Bar  */
 const circles=document.querySelectorAll(".circle");
-const images=['abt4.jpeg','abt0.jpg','abt2.jpeg','abt1.jpeg']
+const images=['images/abt4.jpeg','images/abt0.jpg','images/abt2.jpeg','images/abt1.jpeg']
 
 const imgHolder=document.getElementById("imgHolderAbt");
 
@@ -121,7 +121,7 @@ let html=[`
     <div class="container" style="display: flex;width: 100%; height: 50px;">
     <div class="skill1 border" style="display: flex;justify-content: center;align-items: center;width: 50%; height: 50px;">
       <div class="imgBox" style="width: 30px; height: 40px;margin-top: 3px;margin-left: 3px;">
-           <img src="html.png" style="max-width: 100%;max-height: 100%;object-fit: contain;">
+           <img src="images/html.png" style="max-width: 100%;max-height: 100%;object-fit: contain;">
        </div>
        <div class="borderDiv" style="margin-left: 5px;">
                <div class="line red"></div>
@@ -129,7 +129,7 @@ let html=[`
     </div>
     <div class="skill2 border" style="display: flex;justify-content: center;align-items: center;width: 50%; height: 50px;">
        <div class="imgBox" style="width: 30px; height: 40px;margin-top: 3px;margin-left: 3px;">
-            <img src="css.png" style="max-width: 100%;max-height: 100%;object-fit: contain;">
+            <img src="images/css.png" style="max-width: 100%;max-height: 100%;object-fit: contain;">
         </div>
         <div class="borderDiv" style="margin-left: 5px;">
                 <div class="line red"></div>
@@ -141,7 +141,7 @@ let html=[`
 <div class="container" style="display: flex;width: 100%; height: 50px;">
    <div class="skill1 border" style="display: flex;justify-content: center;align-items: center;width: 50%; height: 50px;">
       <div class="imgBox" style="width: 30px; height: 40px;margin-top: 3px;margin-left: 3px;">
-           <img src="js.webp" style="max-width: 100%;max-height: 100%;object-fit: contain;">
+           <img src="images/js.webp" style="max-width: 100%;max-height: 100%;object-fit: contain;">
        </div>
        <div class="borderDiv" style="margin-left: 5px;">
                <div class="line red"></div>
@@ -149,7 +149,7 @@ let html=[`
    </div>
    <div class="skill2 border" style="display: flex;justify-content: center;align-items: center;width: 50%; height: 50px;">
        <div class="imgBox" style="width: 30px; height: 40px;margin-top: 3px;margin-left: 3px;">
-            <img src="icon.png" style="max-width: 100%;max-height: 100%;object-fit: contain;">
+            <img src="images/icon.png" style="max-width: 100%;max-height: 100%;object-fit: contain;">
         </div>
         <div class="borderDiv" style="margin-left: 5px;">
                 <div class="line blue"></div>
@@ -162,7 +162,7 @@ let html=[`
 <div class="container" style="display: flex;width: 100%; height: 50px;">
    <div class="skill1 border" style="display: flex;justify-content: center;align-items: center;width: 50%; height: 50px;">
       <div class="imgBox" style="width: 30px; height: 40px;margin-top: 3px;margin-left: 3px;">
-           <img src="seo.png" style="max-width: 100%;max-height: 100%;object-fit: contain;">
+           <img src="images/seo.png" style="max-width: 100%;max-height: 100%;object-fit: contain;">
        </div>
        <div class="borderDiv" style="margin-left: 5px;">
                <div class="line yellow"></div>
@@ -170,7 +170,7 @@ let html=[`
    </div>
    <div class="skill2 border" style="display: flex;justify-content: center;align-items: center;width: 50%; height: 50px;">
        <div class="imgBox" style="width: 30px; height: 40px;margin-top: 3px;margin-left: 3px;">
-            <img src="github.png" style="max-width: 100%;max-height: 100%;object-fit: contain;">
+            <img src="images/github.png" style="max-width: 100%;max-height: 100%;object-fit: contain;">
         </div>
         <div class="borderDiv" style="margin-left: 5px;">
                 <div class="line green"></div>
@@ -183,7 +183,7 @@ let html=[`
 <div class="container" style="display: flex;width: 100%; height: 50px;">
    <div class="skill1 border" style="display: flex;justify-content: center;align-items: center;width: 50%; height: 50px;">
       <div class="imgBox" style="width: 30px; height: 40px;margin-top: 3px;margin-left: 3px;">
-           <img src="java.png" style="max-width: 100%;max-height: 100%;object-fit: contain;">
+           <img src="images/java.png" style="max-width: 100%;max-height: 100%;object-fit: contain;">
        </div>
        <div class="borderDiv" style="margin-left: 5px;">
                <div class="line red"></div>
@@ -191,7 +191,7 @@ let html=[`
    </div>
    <div class="skill2 border" style="display: flex;justify-content: center;align-items: center;width: 50%; height: 50px;">
        <div class="imgBox" style="width: 30px; height: 40px;margin-top: 3px;margin-left: 3px;">
-            <img src="C++.png" style="max-width: 100%;max-height: 100%;object-fit: contain;">
+            <img src="images/C++.png" style="max-width: 100%;max-height: 100%;object-fit: contain;">
         </div>
         <div class="borderDiv" style="margin-left: 5px;">
                 <div class="line green"></div>
@@ -203,7 +203,7 @@ let html=[`
 <div class="container" style="display: flex;width: 100%; height: 50px;">
    <div class="skill1 border" style="display: flex;justify-content: center;align-items: center;width: 50%; height: 50px;">
       <div class="imgBox" style="width: 30px; height: 40px;margin-top: 3px;margin-left: 3px;">
-           <img src="dsa.png" style="max-width: 100%;max-height: 100%;object-fit: contain;">
+           <img src="images/dsa.png" style="max-width: 100%;max-height: 100%;object-fit: contain;">
        </div>
        <div class="borderDiv" style="margin-left: 5px;">
                <div class="line blue"></div>
@@ -211,7 +211,7 @@ let html=[`
    </div>
    <div class="skill2 border" style="display: flex;justify-content: center;align-items: center;width: 50%; height: 50px;">
        <div class="imgBox" style="width: 30px; height: 40px;margin-top: 3px;margin-left: 3px;">
-            <img src="testing.png" style="max-width: 100%;max-height: 100%;object-fit: contain;">
+            <img src="images/testing.png" style="max-width: 100%;max-height: 100%;object-fit: contain;">
         </div>
         <div class="borderDiv" style="margin-left: 5px;">
                 <div class="line yellow"></div>
@@ -222,7 +222,7 @@ let html=[`
 <div class="container" style="display: flex;width: 100%; height: 50px;">
    <div class="skill1 border" style="display: flex;justify-content: center;align-items: center;width: 50%; height: 50px;">
       <div class="imgBox" style="width: 30px; height: 40px;margin-top: 3px;margin-left: 3px;">
-           <img src="android.webp" style="max-width: 100%;max-height: 100%;object-fit: contain;">
+           <img src="images/android.webp" style="max-width: 100%;max-height: 100%;object-fit: contain;">
        </div>
        <div class="borderDiv" style="margin-left: 5px;">
                <div class="line green"></div>
@@ -230,7 +230,7 @@ let html=[`
    </div>
    <div class="skill2 border" style="display: flex;justify-content: center;align-items: center;width: 50%; height: 50px;">
        <div class="imgBox" style="width: 30px; height: 40px;margin-top: 3px;margin-left: 3px;">
-            <img src="python.jpg" style="max-width: 100%;max-height: 100%;object-fit: contain;">
+            <img src="images/python.jpg" style="max-width: 100%;max-height: 100%;object-fit: contain;">
         </div>
         <div class="borderDiv" style="margin-left: 5px;">
                 <div class="line red"></div>
@@ -243,7 +243,7 @@ let html=[`
 <div class="container" style="display: flex;width: 100%; height: 50px;">
    <div class="skill1 border" style="display: flex;justify-content: center;align-items: center;width: 50%; height: 50px;">
       <div class="imgBox" style="width: 30px; height: 40px;margin-top: 3px;margin-left: 3px;">
-           <img src="django.svg" style="max-width: 100%;max-height: 100%;object-fit: contain;">
+           <img src="images/django.svg" style="max-width: 100%;max-height: 100%;object-fit: contain;">
        </div>
        <div class="borderDiv" style="margin-left: 5px;">
                <div class="line blue"></div>
@@ -251,7 +251,7 @@ let html=[`
    </div>
    <div class="skill2 border" style="display: flex;justify-content: center;align-items: center;width: 50%; height: 50px;">
        <div class="imgBox" style="width: 30px; height: 40px;margin-top: 3px;margin-left: 3px;">
-            <img src="IOT.png" style="max-width: 100%;max-height: 100%;object-fit: contain;">
+            <img src="images/IOT.png" style="max-width: 100%;max-height: 100%;object-fit: contain;">
         </div>
         <div class="borderDiv" style="margin-left: 5px;">
                 <div class="line yellow"></div>
@@ -265,7 +265,7 @@ let html=[`
 <div class="container" style="display: flex;width: 100%; height: 50px;">
    <div class="skill1 border" style="display: flex;justify-content: center;align-items: center;width: 50%; height: 50px;">
       <div class="imgBox" style="width: 30px; height: 40px;margin-top: 3px;margin-left: 3px;">
-           <img src="mysql.png" style="max-width: 100%;max-height: 100%;object-fit: contain;">
+           <img src="images/mysql.png" style="max-width: 100%;max-height: 100%;object-fit: contain;">
        </div>
        <div class="borderDiv" style="margin-left: 5px;">
                <div class="line blue"></div>
@@ -273,7 +273,7 @@ let html=[`
    </div>
    <div class="skill2 border" style="display: flex;justify-content: center;align-items: center;width: 50%; height: 50px;">
        <div class="imgBox" style="width: 30px; height: 40px;margin-top: 3px;margin-left: 3px;">
-            <img src="php.png" style="max-width: 100%;max-height: 100%;object-fit: contain;">
+            <img src="images/php.png" style="max-width: 100%;max-height: 100%;object-fit: contain;">
         </div>
         <div class="borderDiv" style="margin-left: 5px;">
                 <div class="line green"></div>
@@ -287,7 +287,7 @@ let html=[`
 <div class="container" style="display: flex;width: 100%; height: 50px;">
    <div class="skill1 border" style="display: flex;justify-content: center;align-items: center;width: 50%; height: 50px;">
       <div class="imgBox" style="width: 30px; height: 40px;margin-top: 3px;margin-left: 3px;">
-           <img src="ml.png" style="max-width: 100%;max-height: 100%;object-fit: contain;">
+           <img src="images/ml.png" style="max-width: 100%;max-height: 100%;object-fit: contain;">
        </div>
        <div class="borderDiv" style="margin-left: 5px;">
                <div class="line yellow"></div>
@@ -295,7 +295,7 @@ let html=[`
    </div>
    <div class="skill2 border" style="display: flex;justify-content: center;align-items: center;width: 50%; height: 50px;">
        <div class="imgBox" style="width: 30px; height: 40px;margin-top: 3px;margin-left: 3px;">
-            <img src="devops.png" style="max-width: 100%;max-height: 100%;object-fit: contain;">
+            <img src="images/devops.png" style="max-width: 100%;max-height: 100%;object-fit: contain;">
         </div>
         <div class="borderDiv" style="margin-left: 5px;">
                 <div class="line yellow "></div>
