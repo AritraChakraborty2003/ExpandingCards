@@ -344,13 +344,13 @@ let html=[`
     <div class="container" style="display: flex;width: 100%; height: 50px;">
         <div class="skill1" style="display: flex;justify-content: center;align-items: center;width: 50%; height: 50px;">
            <div class="imgBox" style="display: flex; justify-content:center; align-items: center;width: 30px; height: 40px;margin-top: 3px;margin-left: 3px;">
-                <img src="linkedin.webp" style="max-width: 100%;max-height: 100%;object-fit: contain;">
+                <img src="images/linkedin.webp" style="max-width: 100%;max-height: 100%;object-fit: contain;">
                 <a href="https://www.linkedin.com/in/aritra-chakraborty-396604217/" target="_blank">Linkedin</a>
             </div>
          </div>
          <div class="skill2" style="display: flex;justify-content: center;align-items: center;width: 50%; height: 50px;">
             <div class="imgBox" style="display: flex; justify-content:center; align-items: center;width: 30px; height: 40px;margin-top: 3px;margin-left: 3px;">
-                 <img src="github.png" style="max-width: 100%;max-height: 100%;object-fit: contain;">
+                 <img src="images/github.png" style="max-width: 100%;max-height: 100%;object-fit: contain;">
                 <a href="https://github.com/AritraChakraborty2003" class="href" target="_blank">Github</a>
                 </div>
     </div>
@@ -358,13 +358,13 @@ let html=[`
     <div class="container" style="display: flex;width: 100%; height: 50px;">
         <div class="skill1" style="display: flex;justify-content: center;align-items: center;width: 50%; height: 50px;">
            <div class="imgBox" style="display:flex;justify-content: center; align-items:center;width:  30px; height: 40px;margin-top: 3px;margin-left: 3px;">
-                <img src="leetcode.png" style="max-width: 100%;max-height: 100%;object-fit: contain;">
+                <img src="images/leetcode.png" style="max-width: 100%;max-height: 100%;object-fit: contain;">
                 <a href="https://leetcode.com/Aritra_Codes/" class="href" target="_blank">leetcode</a>
             </div>
         </div>
          <div class="skill2" style="display: flex;justify-content: center;align-items: center;width: 50%; height: 50px;">
             <div class="imgBox" style="display: flex;justify-content: center;align-items: center;width: 30px; height: 40px;margin-top: 3px;margin-left: 3px;">
-                 <img src="gfg.png" style="max-width: 100%;max-height: 100%;object-fit: contain;">
+                 <img src="images/gfg.png" style="max-width: 100%;max-height: 100%;object-fit: contain;">
                     <a href="https://auth.geeksforgeeks.org/user/aritrachakraborty487/?utm_source=geeksforgeeks&utm_medium=my_profile&utm_campaign=auth_user" target="_blank">GeeksforGeeks</a>
                 </div>
     </div>
@@ -372,13 +372,13 @@ let html=[`
     <div class="container" style="display: flex;width: 100%; height: 50px;">
         <div class="skill1" style="display: flex;justify-content: center;align-items: center;width: 50%; height: 50px;">
            <div class="imgBox" style="display:flex;justify-content: center;align-items: center;width: 30px; height: 40px;margin-top: 3px;margin-left: 3px;">
-                <img src="coding ninjas.webp" style="max-width: 100%;max-height: 100%;object-fit: contain;">
+                <img src="images/coding ninjas.webp" style="max-width: 100%;max-height: 100%;object-fit: contain;">
                 <a href="https://www.codingninjas.com/studio/profile/Aritra_codes" target="_blank">Codestudio</a>
             </div>
          </div>
          <div class="skill2" style="display: flex;justify-content: center;align-items: center;width: 50%; height: 50px;">
             <div class="imgBox" style="display: flex;justify-content: center;align-items: center;width: 30px; height: 40px;margin-top: 3px;margin-left: 3px;">
-                 <img src="codechef.png" style="max-width: 100%;max-height: 100%;object-fit: contain;">
+                 <img src="images/codechef.png" style="max-width: 100%;max-height: 100%;object-fit: contain;">
                 <a href="https://www.codechef.com/users/aritra_codes" target="_blank">Codechef</a>
                 </div>
     </div>

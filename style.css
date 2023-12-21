@@ -47,7 +47,7 @@ p{
 }
 @media(max-width:900px){
     .container{
-        width:100vw;
+        width:90vw;
     }
     .panel:nth-of-type(4),
     .panel:nth-of-type(3),
