@@ -47,7 +47,7 @@ p{
 }
 @media(max-width:900px){
     .container{
-        width:90vw;
+        width:100vw;
     }
     .panel:nth-of-type(4),
     .panel:nth-of-type(3),
@@ -167,6 +167,7 @@ p{
     
 }
 @media(min-width:901px){
+    
     .abtImage{
         width:25vw;
         display: flex;
@@ -272,6 +273,7 @@ display: none;
 .nav1{
 
 padding:10px;
+border:1px solid white;
 
 } 
 .sec{
@@ -299,7 +301,7 @@ margin-top: 10px;
     }
     @media(min-width:900px){
     .bannerImage{
-        margin-top: 10vmin;height:47vh; width:47vmin;border: 7px solid rgb(59, 159, 222);border-radius: 35vmin;
+        margin-top: 10vmin;height:55vh; width:55vmin;border: 7px solid rgb(59, 159, 222);border-radius: 35vmin;
     }
     .bannerText{
         font-weight: bolder;  font-size: 7.75vmin;
@@ -316,4 +318,12 @@ margin-top: 10px;
     .btn2{
         margin-left: 5vmin;
     }
+    }
+    /*Large Screen responsive*/
+    @media(min-width:1920px){
+        .btn1,.btn2{
+            font-size: 3.5vmin;
+            padding: 2vmin;
+        }
+ 
     }
