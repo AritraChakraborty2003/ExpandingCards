@@ -191,7 +191,7 @@ let html=[`
    </div>
    <div class="skill2 border" style="display: flex;justify-content: center;align-items: center;width: 50%; height: 50px;">
        <div class="imgBox" style="width: 30px; height: 40px;margin-top: 3px;margin-left: 3px;">
-            <img src="images/C++.png" style="max-width: 100%;max-height: 100%;object-fit: contain;">
+            <img src="images/c++.png" style="max-width: 100%;max-height: 100%;object-fit: contain;">
         </div>
         <div class="borderDiv" style="margin-left: 5px;">
                 <div class="line green"></div>
@@ -251,7 +251,7 @@ let html=[`
    </div>
    <div class="skill2 border" style="display: flex;justify-content: center;align-items: center;width: 50%; height: 50px;">
        <div class="imgBox" style="width: 30px; height: 40px;margin-top: 3px;margin-left: 3px;">
-            <img src="images/IOT.png" style="max-width: 100%;max-height: 100%;object-fit: contain;">
+            <img src="images/IOT.jpg" style="max-width: 100%;max-height: 100%;object-fit: contain;">
         </div>
         <div class="borderDiv" style="margin-left: 5px;">
                 <div class="line yellow"></div>
