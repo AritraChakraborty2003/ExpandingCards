@@ -320,10 +320,27 @@ margin-top: 10px;
     }
     }
     /*Large Screen responsive*/
-    @media(min-width:1920px){
+    @media(min-width:1900px){
         .btn1,.btn2{
             font-size: 3.5vmin;
             padding: 2vmin;
+        }
+        .projectHolder{
+            
+            width:100vw;
+        }
+        .projectIcon{
+       
+            width: 70vmin;
+        }
+        .projectDescr{
+            
+            width: 80vmin;
+            margin-left: 5vmin;
+            
+        }
+        .projectDescr p{
+            font-size: 3vmin;
         }
  
     }

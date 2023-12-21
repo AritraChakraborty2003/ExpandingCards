@@ -90,7 +90,7 @@
             <div class="projectDescr">
                 <p class="ProjectTitle captProj"><b>Title:</b> Health-X</p>
                 <p class="projDescr captProj">This is a website for IOT based healthcare Monitoring system for coma and paralysis  patients developed by using django and sqlite as backend.Having feature like e-precription,monitoring,ambulance tracking and many more...</p>
-                <div class="projectLink captProj"><b>Github Link:</b><a href="https://github.com/AritraChakraborty2003/HealthTechCoders" style="color:blue;" target="_blank"> Link</a></div>
+                <p class="projectLink captProj"><b>Github Link:</b><a href="https://github.com/AritraChakraborty2003/HealthTechCoders" style="color:blue;" target="_blank"> Link</a></p>
             </div>
         </div>
 
@@ -98,7 +98,7 @@
             <div class="projectDescr">
                 <p class="ProjectTitle captProj"><b>Title:</b> Modern Weather App</p>
                 <p class="projDescr captProj">This is a website for fetching realtime weather data from api that is openWeathermap API by using the concept of fetchAPI and displaying the values in a responive frontend design.The key concepts involved in project are HTML,CSS,JS and fetchAPI concept.</p>
-                <div class="projectLink captProj"><b>Github Link:</b><a href="https://github.com/AritraChakraborty2003/WeatherApp" style="color:blue;" target="_blank"> Link</a></div>
+                <p class="projectLink captProj"><b>Github Link:</b><a href="https://github.com/AritraChakraborty2003/WeatherApp" style="color:blue;" target="_blank"> Link</a></p>
             </div>
             <div class="projectIcon" style="margin-left:5vmin;">
                 <div class="imgHolder">
@@ -117,7 +117,7 @@
             <div class="projectDescr">
                 <p class="ProjectTitle captProj"><b>Title:</b> HaatKe-Resume</p>
                 <p class="projDescr captProj">This is a website for making and generating resume as pdf after filling all the necessary data.This is a resume maker project which involve concept like Advance DOM Manipulation and pdf from html.</p>
-                <div class="projectLink captProj"><b>Github Link:</b><a href="https://github.com/AritraChakraborty2003/ResumeMaker" style="color:blue;" target="_blank"> Link</a></div>
+                <p class="projectLink captProj"><b>Github Link:</b><a href="https://github.com/AritraChakraborty2003/ResumeMaker" style="color:blue;" target="_blank"> Link</a></p>
             </div>
         </div>
         
@@ -212,6 +212,33 @@
     </div>
     </div>
 <!--End of Expanding Card Logic for Gallery-->
+
+<!--Testinomial Screen-->
+<div class="Testinomials" style="margin-top:15vmin">
+    <div class="testinomialHeader">
+        <p class="headerText" style="font-size: 6vmin;font-weight: bold;color:rgb(59, 159, 222);text-align: center;">Testinomials</p>
+    </div>
+    <div class="TestinomialBox">
+        <div class="headerBox" style="display: flex;">
+            <div class="imageHolderBox" style="margin-top: 3vmin;margin-left: 3vmin;height: 12vmin; width: 17vmin;">
+                <img src="images/face1.avif" id="testImage" alt="image" style="border: 3px solid white; border-radius: 7vmin;max-width: 100%; max-height: 100%; object-fit: contain;">
+            </div>
+        <div class="nameText" style="margin-left: 3vmin;">
+           <p><span id="nameTest">Somnath Chakraborty</span><br>
+           <span id="designationTest">( Retired Railway Employee )</span></p>
+        </div>
+        </div>
+
+        <div class="testinomialProgressBar">
+
+        </div>
+        <div class="testinomialText">
+            <p id="testinomialText" style="color:white;padding-left: 3vmin;">" Hi, I am Somnath here to appreciate the work of Aritra Chakraborty.I feel very delighted to work with such an exceptionally talented person in the tech industry.He has a vast knowledge in Frontend Technologies and responive design principles. He has experience working with HTML,CSS,JS,react.js and django"</p>
+        </div>
+        
+    </div>
+ </div>
+ 
 <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 <script>
 var typed=new Typed(".float",{
@@ -247,8 +274,33 @@ var typed=new Typed(".float",{
         width:90vmin;
        
     }
+    .TestinomialBox{
+    height:60vmin;
+    width:95vw;
+    border:1px solid white;
+    border-radius:5vmin;
+    background-color: rgb(40, 134, 193);
  }
- @media(min-width:901px){
+ .testinomialProgressBar{
+        height:4px;
+        width:90vw;
+        margin-left: 3vmin;
+        margin-top: 2vmin;
+        background-color: white;
+    }
+ #nameTest{
+    font-size: 3.5vmin;
+    color:white;
+ }
+ #designationTest{
+        font-size: 2.5vmin;
+        color: white;
+    }
+    #testinomialText{
+        font-size:3.5vmin ;
+    }
+ }
+ @media(min-width:901px) and (max-width:1899px) {
     .projectIcon{
         width:450px;
         height: 50vmin;
@@ -256,6 +308,13 @@ var typed=new Typed(".float",{
         justify-content: center;
         align-items: center;
     }
+    .TestinomialBox{
+    height:50vmin;
+    width:55vw;
+    border:1px solid white;
+    border-radius:5vmin;
+    background-color: rgb(40, 134, 193);
+ }
     .captProj{
         font-size: 3.5vmin;
     }
@@ -264,10 +323,61 @@ var typed=new Typed(".float",{
         height:45vmin;
        
     }
+    #nameTest{
+    font-size: 3.5vmin;
+    color:white;
+    }
+    #designationTest{
+        font-size: 2.5vmin;
+        color: white;
+    }
     .projectDescr{
         width:650px;
         height: 50vmin;
         margin-left: 3vmin;
     }
+    .testinomialProgressBar{
+        height:4px;
+        width:52vw;
+        margin-left: 3vmin;
+        margin-top: 2vmin;
+        background-color: white;
+        animation: grow 5s linear infinite;
+        transform-origin: left;
+    } 
+    @keyframes grow {
+        0%{
+            transform: scaleX(0);
+        }
+    }
  }
+ @media(min-width:1900px){
+    .testinomialProgressBar{
+        height:4px;
+        width:50vw;
+        margin-left: 3vmin;
+        margin-top: 2vmin;
+        background-color: white;
+    }
+    #nameTest{
+    font-size: 3.5vmin;
+    color:white;
+    }
+    #designationTest{
+        font-size: 2.5vmin;
+        color: white;
+    }
+    .TestinomialBox{
+    height:50vmin;
+    width:55vw;
+    border:1px solid white;
+    border-radius:5vmin;
+    background-color: rgb(40, 134, 193);
+    }
+    #testinomialText{
+        font-size:3vmin ;
+    }
+
+ }
+
 </style>
