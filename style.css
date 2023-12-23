@@ -46,6 +46,16 @@ p{
     opacity:1;
 }
 @media(max-width:900px){
+    .panel{
+        background-size:auto 100%; 
+        height:90vh;
+        background-repeat: no-repeat;
+        margin-left:10px;
+        position:relative;
+        cursor: pointer;
+        flex:0.55;
+        transition: flex 0.7s ease-in;
+    }
     .container{
         width:95vw;
     }
@@ -427,7 +437,10 @@ color:white;
     font-size: 2vmin;
 }
 .ansFAQ{
-    height: 59vmin; width: 95vw; 
+    width: 95vw; 
+}
+.ansFAQ1{
+    font-size: 4vmin;
 }
 
 
