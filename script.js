@@ -410,20 +410,20 @@ ham.addEventListener("click",()=>{
 var testinomial=[
     {
         name:"Somnath Chakraborty",
-        designation:"Retired Railway Employee",
-        testinomialText:`"Hi, I am Somnath here to appreciate the work of Aritra Chakraborty.I feel very delighted to work with such an exceptionally talented person in the tech industry.He has a vast knowledge in Frontend Technologies and responive design principles. He has experience working with HTML,CSS,JS,react.js and django"`,
+        designation:"Chairman TechHubBharat",
+        testinomialText:`"Hi, I am Somnath here to appreciate the work of Aritra Chakraborty.I feel very delighted to work with such an exceptionally talented person in the tech industry.He has a vast knowledge in Frontend Technologies and responive design principles. He has experience working with HTML,CSS,JS,react.js and django.Besides he  is a visionary director and MD managing the board and being the CTO managing the technical infrastructure of the company."`,
         image:"images/face1.avif"
     },
     {
         name:"Abhishek Pandey",
-        designation:"COO and Founder TechHubIndia",
-        testinomialText:`"I am extremely delighted to work with Aritra.He is really very professional in software development solutions.He has extensive knowledge of Frontend responsive design and also how to efficiently deal with APIs for the frontend side development.As founders we work together in building TechHubIndia a global brand.Aritra is really a visionary CEO who is exceptional in executional management and side by side managing the entire technical infrstructure of the Company."`,
+        designation:"CEO and Director TechHubBharat",
+        testinomialText:`"I am extremely delighted to work with Aritra.He is really very professional in software development solutions.He has extensive knowledge of Frontend responsive design, backend and also how to efficiently deal with APIs for the frontend side development.As founders we work together in building TechHubIndia a global brand.Aritra is really a visionary MD and CTO who is exceptional in executional management and side by side managing the entire technical infrstructure of the Company."`,
         image:"images/face.avif"
     },
     {
-        name:"John Doe",
-        designation:"SDE 3 Jio",
-        testinomialText:`"I am very delighted to work with Aritra.He is really very professional in software development solutions.He has extensive knowledge of Frontend responsive design and also how to efficiently deal with APIs for the frontend side development.Aritra is really dedicated in solving real world techinal problems and extremely focussed towards deadlines.He is my role model for his professional working pattern."`,
+        name:"Anish Gupta",
+        designation:"Managing Partner CodeMap",
+        testinomialText:`"I am very delighted to work on technical projects with Aritra Sir.I with him and Abhishek sir built the company Codemap and its coding community which is one of the largest coding community in India with roots in more than 10+ colleges and organized more than 50+ Hackathons nurturing the new gen tech talents.Personally I feel really motivated to work with such a skilled person not only in software industry but also on finance and legal grounds."`,
         image:"images/face2.jpg"
     },
     
